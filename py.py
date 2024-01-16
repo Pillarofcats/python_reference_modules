@@ -1,106 +1,105 @@
+# #IMMUTABLE TYPES (copies are NOT referenced, copies don't affect real copy)
+# from immutableTypesModule import immutableTypes
+# immutableTypes()
 
+# #MUTABLE TYPES (copies are referenced, copies affect real copy)
+# from mutableTypesModule import mutableTypes
+# mutableTypes()
 
-#IMMUTABLE TYPES (copies are NOT referenced, copies don't affect real copy)
-from immutableTypesModule import immutableTypes
-immutableTypes()
+# #SHALLOW COPY
+# from shallowCopyModule import shallowCopy
+# shallowCopy()
 
-#MUTABLE TYPES (copies are referenced, copies affect real copy)
-from mutableTypesModule import mutableTypes
-mutableTypes()
+# #LIST COMPREHENSION
+# from listComprehensionModule import listComprehension
+# listComprehension()
 
-#SHALLOW COPY
-from shallowCopyModule import shallowCopy
-shallowCopy()
+# #PARAMATER/ARGUMENT/DEFAULT
+# # *args / **kwargs
+# from paramArgsDefaultModule import paramArgsDefault
+# paramArgsDefault()
 
-#LIST COMPREHENSION
-from listComprehensionModule import listComprehension
-listComprehension()
+# #IMPORT MODULES
+# print("|| IMPORT MODULES ||\n")
+# from importAddModule import importAdd
+# #from (module file) import (module function/variables/etc)
+# print(f"from importAddModule import importAdd] \nAdding 1 + 2 with ImportAddModule Fn importAdd(1,2): { importAdd(1,2) }")
 
-#PARAMATER/ARGUMENT/DEFAULT
-# *args / **kwargs
-from paramArgsDefaultModule import paramArgsDefault
-paramArgsDefault()
+# print("")
 
-#IMPORT MODULES
-print("|| IMPORT MODULES ||\n")
-from importAddModule import importAdd
-#from (module file) import (module function/variables/etc)
-print(f"from importAddModule import importAdd] \nAdding 1 + 2 with ImportAddModule Fn importAdd(1,2): { importAdd(1,2) }")
+# #GLOBAL INTERPRETER LOCK (GIL) PYTHON ONLY RUNS 1 THREAD AT A TIME
+# #NOT MULTITHREADED
+# from gilModule import gil
+# gil()
 
-print("")
+# #TRY/EXCEPTION
+# from tryExceptionModule import tryException
+# tryException()
 
-#GLOBAL INTERPRETER LOCK (GIL) PYTHON ONLY RUNS 1 THREAD AT A TIME
-#NOT MULTITHREADED
-from gilModule import gil
-gil()
+# #IMPORT RANDOM
+# from randomCardModule import randomCard
+# randomCard()
 
-#TRY/EXCEPTION
-from tryExceptionModule import tryException
-tryException()
+# #TUPLE METHODS
+# from tupleMethodsModule import tupleMethods
+# tupleMethods()
 
-#IMPORT RANDOM
-from randomCardModule import randomCard
-randomCard()
+# #LIST METHODS
+# from listMethodsModule import listMethods
+# listMethods()
 
-#TUPLE METHODS
-from tupleMethodsModule import tupleMethods
-tupleMethods()
+# #SET METHODS
+# from setMethodsModule import setMethods
+# setMethods()
 
-#LIST METHODS
-from listMethodsModule import listMethods
-listMethods()
+# #DICT METHODS
+# from dictMethodsModule import dictMethods
+# dictMethods()
 
-#SET METHODS
-from setMethodsModule import setMethods
-setMethods()
+# #FOR LOOPS
+# from forLoopsModule import forLoops
+# forLoops()
 
-#DICT METHODS
-from dictMethodsModule import dictMethods
-dictMethods()
+# #CLASSES
+# from classesModule import classes
+# classes()
 
-#FOR LOOPS
-from forLoopsModule import forLoops
-forLoops()
+# #ITERATORS
+# from iteratorsModule import iterators
+# iterators()
 
-#CLASSES
-from classesModule import classes
-classes()
+# #POLYMORPHISM
+# from polymorphismModule import polymorphism
+# polymorphism()
 
-#ITERATORS
-from iteratorsModule import iterators
-iterators()
+# #DATES
+# from datesModule import dates
+# dates()
 
-#POLYMORPHISM
-from polymorphismModule import polymorphism
-polymorphism()
+# #PARSE JSON
+# from parseJSONModule import parseJSON
+# parseJSON()
 
-#DATES
-from datesModule import dates
-dates()
+# #PIP PACKAGE MANAGER
+# from pipModule import pip
+# pip()
 
-#PARSE JSON
-from parseJSONModule import parseJSON
-parseJSON()
+# #USER INPUT
+# from userInputModule import userInput
+# userInput()
 
-#PIP PACKAGE MANAGER
-from pipModule import pip
-pip()
+# #WRITE FILES / READ FILES
+# from writeReadFilesModule import writeReadFiles
+# writeReadFiles()
 
-#USER INPUT
-from userInputModule import userInput
-userInput()
+# #CLASS MAGIC METHODS
+# from classMagicMethodsModule import classMagicMethods
+# classMagicMethods()
 
-#WRITE FILES / READ FILES
-from writeReadFilesModule import writeReadFiles
-writeReadFiles()
-
-#CLASS MAGIC METHODS
-from classMagicMethodsModule import classMagicMethods
-classMagicMethods()
-
-#IMPORT TIMEIT
-from importTimeItModule import importTimeIt
-importTimeIt()
+# #IMPORT TIMEIT
+# from importTimeItModule import importTimeIt
+# importTimeIt()
 
 #SOMETHING
 print("|| SOMETHING ||\n")
+
