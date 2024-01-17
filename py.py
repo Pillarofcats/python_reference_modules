@@ -100,6 +100,7 @@ classMagicMethods()
 from importTimeItModule import importTimeIt
 importTimeIt()
 
-#SOMETHING
-print("|| SOMETHING ||\n")
+#STRINGS
+from stringsModule import strings
+strings()
 
