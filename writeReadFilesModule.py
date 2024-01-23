@@ -18,3 +18,5 @@ def writeReadFiles():
   print(f"Reading file: \n{read}")
 
   fr.close()
+  
+  print("")

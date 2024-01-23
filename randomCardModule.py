@@ -7,4 +7,5 @@ def randomCard():
   print(f"cards:\n { cards }")
   random.shuffle(cards)
   print(f"shuffled cards:\n{ cards }")
+  
   print("")

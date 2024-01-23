@@ -6,3 +6,5 @@ def shallowCopy():
   cpyAList = list(aList)
 
   print(f"Note: Copy mutable list by value using list()\n list: {aList}, list copy: {cpyAList}\n")
+  
+  print("")

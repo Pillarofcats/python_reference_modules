@@ -41,3 +41,5 @@ def dictMethods():
   print(f"for key, value in aDict.items():")
   for key, value in aDict.items():
     print(f"{key}: {value}")
+    
+  print("")

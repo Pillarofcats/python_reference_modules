@@ -14,3 +14,5 @@ def listComprehension():
 
   lc3 = [i for i in range(10) if i % 2 == 0]
   print(f"List comprehension 3, (Conditional % 2 == 0):\n {lc3}\n")
+  
+  print("")

@@ -16,3 +16,5 @@ def immutableTypes():
   iReal = (1,2,3)
 
   print(f"Note: Changing a copy of an immutable does not affect the original:\n real: {iReal}, cpy: {iCpy}\n")
+  
+  print("")

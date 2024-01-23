@@ -13,3 +13,5 @@ def mutableTypes():
   mReal[1] = 1
 
   print(f"Note: Changing a copy of a mutable affects the original:\n real: {mReal}, cpy: {mCpy}\n")
+  
+  print("")

@@ -39,6 +39,9 @@ def strings():
   
   print(f"Split string into a list of characters using list(string): \n{list(str1)}")
   print("")
+  
+  print(f"Join char list to string using ''.join(list): \n{''.join(str1) }")
+  print("")
 
   def validParenthesisProblem(str):
     
@@ -59,3 +62,5 @@ def strings():
     return not stack
   
   print(f"Valid parenthesis, '({[]})[]()' ?: { validParenthesisProblem('({[]})[]()') }")
+  
+  print("")
